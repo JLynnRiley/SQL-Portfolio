@@ -1,0 +1,16 @@
+--In this SQL, I am creating a simple table with some of my favorite books to include an ID, the book name, and what I rated it. 
+
+
+
+What are your favorite books? Create a table to store your list of books.
+
+
+
+CREATE TABLE books (id INTEGER PRIMARY KEY, name TEXT, rating INTEGER);
+
+INSERT INTO books VALUES (1, "The Wizard Of Oz", 5);
+INSERT INTO books VALUES (2, "Skeeter", 6);
+INSERT INTO books VALUES (3, "Hunger Games", 1);
+INSERT INTO books VALUES (4, "The Fault In Our Stars", 2);
+INSERT INTO books VALUES (5, "The Host", 4);
+INSERT INTO books VALUES (6, "Dog Master", 3);

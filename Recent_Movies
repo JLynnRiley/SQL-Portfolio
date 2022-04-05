@@ -1,0 +1,10 @@
+In this SQL, I am using a query to filter a table in order retrieve data about recent movies.
+
+
+
+Add a query, that retrieves only the movies that were released in the year 2000 or later, not before. Sort the results so that the earlier movies are listed first. 
+
+SELECT *
+FROM movies
+WHERE release_year >= 2000
+ORDER BY release_year ASC;
